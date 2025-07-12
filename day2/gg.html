@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Booking Table</title>
+</head>
+<body>
+
+  <h2>🌍 Travel Bookings</h2>
+
+  <table border="1" cellpadding="8">
+    <!-- Table Header -->
+    <tr>
+      <th>Destination</th>
+      <th>Date</th>
+      <th>Cost</th>
+      <th>Status</th>
+    </tr>
+
+    <!-- Row 1 & 2: Same Destination (rowspan) -->
+    <tr>
+      <td rowspan="2">Paris</td>
+      <td>2025-08-01</td>
+      <td>$800</td>
+      <td>Confirmed</td>
+    </tr>
+    <tr>
+      <td>2025-09-15</td>
+      <td>$750</td>
+      <td>Pending</td>
+    </tr>
+
+    <!-- Row 3 -->
+    <tr>
+      <td>Tokyo</td>
+      <td>2025-10-05</td>
+      <td>$1,200</td>
+      <td>Confirmed</td>
+    </tr>
+
+    <!-- Total Row with colspan -->
+    <tr>
+      <td colspan="3"><strong>Total Cost</strong></td>
+      <td><strong>$2,750</strong></td>
+    </tr>
+  </table>
+
+</body>
+</html>
