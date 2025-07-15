@@ -1,0 +1,25 @@
+*{
+     box-sizing: border-box box;
+}
+
+body{
+    flex-direction: column;
+    margin: 0;
+    
+    display:flex ;
+
+}
+.home {    float:left;
+   width: 30%;
+   padding: 20px;
+
+
+
+
+}
+.cp{ 
+    width: 30%;
+    display: flex;
+    padding: 20px;
+
+}
